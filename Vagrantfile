@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
   config.vm.define "bootldmachine", primary: true do |bootldmachine|
     bootldmachine.vm.box = "centos/7"
-    bootldmachine.vm.box_version = "1804.02"
+    bootldmachine.vm.box_version = "2004.01" #"1804.02"
     bootldmachine.vm.provider "virtualbox" do |v|
         v.gui = true
     end
